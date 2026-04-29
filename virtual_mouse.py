@@ -3,6 +3,7 @@ import mediapipe as mp
 import utils
 import pyautogui
 from pynput.mouse import Button, Controller
+import random
 
 mouse = Controller()
 
@@ -92,7 +93,11 @@ def detect_gestures(frame, landmarks_list, processed):
             
         
         # SCREENSHOT   
-        # elif is_screenshot(landmarks_list, thumb_index_distance):
+        elif is_screenshot(landmarks_list, thumb_index_distance):
+            im1 = pyautogui.screenshot()
+            label = random.randint(1, 500)
+            im1.save(f'Screenshot_{label}.png')
+            cv2.putText(frame, "Screenshot Taken", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 2)
             
             
 
