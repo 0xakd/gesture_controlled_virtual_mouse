@@ -7,7 +7,7 @@ def get_angle(a, b, c):
 
 
 def get_distance(landmark_list) :
-    if len(landmark_ist) < 2:
+    if len(landmark_list) < 2:
         return
     (x1, y1), (x2, y2) = landmark_list[0], landmark_list[1]
     L = np.hypot(x2 - x1, y2 - y1)
