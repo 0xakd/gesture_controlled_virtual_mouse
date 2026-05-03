@@ -27,29 +27,29 @@ Move your hand around — the cursor follows your index fingertip.
 ```
 Index finger : UP 
 Middle finger: UP
-Thumb        : close to index base
+Thumb        : CLOSE TO INDEX
 ```
 
 ---
 
-### Left Click
+### ☝️ Left Click
 **Curl your index finger** down while keeping your **middle finger raised**.
 
 ```
 Index finger : CURLED 
 Middle finger: UP 
-Thumb        : away from index
+Thumb        : AWAY FROM INDEX
 ```
 
 ---
 
-### Right Click
+### 👇 Right Click
 **Curl your middle finger** down while keeping your **index finger raised**.
 
 ```
-Index finger : UP ☝️
-Middle finger: CURLED 🤜
-Thumb        : away from index
+Index finger : UP 
+Middle finger: CURLED 
+Thumb        : AWAY FROM INDEX
 ```
 
 ---
@@ -58,21 +58,21 @@ Thumb        : away from index
 **Curl both your index and middle fingers** down at the same time.
 
 ```
-Index finger : CURLED 🤜
-Middle finger: CURLED 🤜
-Thumb        : away from index
+Index finger : CURLED 
+Middle finger: CURLED 
+Thumb        : AWAY FROM INDEX
 ```
 
 ---
 
 ### 📸 Screenshot
 **Curl both index and middle fingers** down AND **bring your thumb close** to your index finger (pinch).  
-The screenshot is saved automatically in the project folder as `Screenshot_<number>.png`.
+The screenshot is saved automatically in 'screenshots' folder as `Screenshot_<number>.png`.
 
 ```
-Index finger : CURLED 🤜
-Middle finger: CURLED 🤜
-Thumb        : PINCHED close to index 🤏
+Index finger : CURLED 
+Middle finger: CURLED 
+Thumb        : CLOSE TO INDEX 
 ```
 
 ---
@@ -96,7 +96,7 @@ virtual_mouse/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/virtual-mouse.git
+git clone https://github.com/0xakd/gesture_controlled_virtual_mouse.git
 cd virtual-mouse
 ```
 
