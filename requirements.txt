@@ -1,5 +1,7 @@
-opencv-python
-mediapipe
-pyautogui
+mediapipe==0.10.9 
+opencv-python==4.9.0.80 
+numpy==1.26.4 
+matplotlib 
+protobuf==3.20.3
+pyautogui   
 pynput
-numpy

@@ -104,10 +104,10 @@ cd virtual-mouse
 
 ```bash
 # Create
-python3 -m venv venv
+python3.10 -m venv venv310
 
 # Activate (macOS/Linux)
-source venv/bin/activate
+source venv310/bin/activate
 
 # Activate (Windows)
 venv\Scripts\activate
@@ -118,6 +118,14 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+
+
+### 4. Verify version
+
+```bash
+python --version
+```
+- it should say something like: 3.10.x
 
 ### 4. Run it
 
