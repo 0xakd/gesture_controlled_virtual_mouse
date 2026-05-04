@@ -97,7 +97,7 @@ virtual_mouse/
 
 ```bash
 git clone https://github.com/0xakd/gesture_controlled_virtual_mouse.git
-cd virtual-mouse
+cd gesture_controlled_virtual_mouse
 ```
 
 ### 2. Create and activate a virtual environment
