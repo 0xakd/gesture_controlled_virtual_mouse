@@ -96,8 +96,8 @@ virtual_mouse/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/0xakd/gesture_controlled_virtual_mouse.git
-cd gesture_controlled_virtual_mouse
+git clone https://github.com/0xakd/gesture_pilot
+cd gesture_pilot
 ```
 
 ### 2. Create and activate a virtual environment
